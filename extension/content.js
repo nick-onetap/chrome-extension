@@ -1,0 +1,1 @@
+alert('Salmonware says hi - content.js')
