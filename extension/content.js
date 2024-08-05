@@ -60,6 +60,9 @@
         "Why did the fish go to the park? To play on the fish swings!",
         "What do you call a fish that loves to play cricket? A batfish!",
       ];
+
+      function displayRandomJoke() {
       const randomIndex = Math.floor(Math.random() * fishJokes.length);
 
       document.getElementById('yoker').textContent = fishJokes[randomIndex];
+    }
