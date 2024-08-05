@@ -1,1 +1,11 @@
-alert('Salmonware says hi - content.js')
+import React from 'react';
+
+function DropdownBox() {
+  return (
+    <DropdownBox>
+      {'UNUSED CONTENT'}
+    </DropdownBox>
+  );
+}
+
+export default DropdownBox;
