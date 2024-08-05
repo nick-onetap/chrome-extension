@@ -66,3 +66,9 @@ function displayRandomJoke() {
 
   document.getElementById("yoker").textContent = fishJokes[randomIndex];
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("jokeButton")
+    .addEventListener("click", displayRandomJoke);
+});
