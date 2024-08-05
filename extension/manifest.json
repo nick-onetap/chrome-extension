@@ -4,7 +4,7 @@
     "manifest_version": 3,
     "permissions": ["activeTab"],
     "action": {
-    "default_popup": "content.js", 
+    "default_popup": "popup.html", 
     "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png",
