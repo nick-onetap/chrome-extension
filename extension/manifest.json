@@ -2,6 +2,7 @@
     "name": "Salmonware Chrome Extension",
     "version": "1.0.0",
     "manifest_version": 3,
+    "description": "Your NEW favorite salmon extension",
     "permissions": ["activeTab"],
     "action": {
     "default_popup": "popup.html", 
