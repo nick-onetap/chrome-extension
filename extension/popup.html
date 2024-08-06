@@ -17,12 +17,13 @@
         color: white;
       }
       button {
+        max-height: 25px;
         margin: auto;
         align-items: center;
         justify-content: center;
         display: flex;
-        background-color: white;
-        color: purple;
+        background-color: rgba(255, 72, 0, 0.815);
+        border-radius: 5px;
       }
       h2 {
         text-align: center;
@@ -34,15 +35,21 @@
         position: absolute;
         bottom: 0;
       }
+      h4 {
+        color: white;
+      }
+      a {
+        color: white;
+      }
       
     </style>
   </head>
 
   <body>
     <h1>Time for a Fish Joke!</h1>
-    <button id="jokeButton" >Click for Joke!</button>
+    <button id="jokeButton"><h4>Click for Joke!</h4></button>
     <script src="content.js"></script>
     <h2 id="yoker"></h2>
-    <h3>Visit Salmonware.com for more</h3>
+    <h3>Visit <a href="https://www.salmonware.com" target="_blank">Salmonware.com</a> for more</h3>
   </body>
 </html>
